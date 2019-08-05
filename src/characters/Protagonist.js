@@ -2,18 +2,24 @@ import React, { useState, useEffect } from 'react';
 import prot from '../assets/sprites/prot.png'
 import { Sprite } from 'react-konva';
 import Konva from 'konva';
-
+import InputManager from '../InputManager';
+let x = 0;
 export default props => {
     const [image, setImage] = useState(null);
     const sprite = React.createRef();
 
-    if(props.moving) sprite.current.start();
-
+    const [spriteX, setSpriteX] = useState(0);
     useEffect(() => {
-        const img = new window.Image();
-        img.src = prot
-        img.onload = () => {
-            setImage(img)
+        console.log('call')
+        // window.requestAnimationFrame(() => console.log('poo'))
+
+        if (image === null) {
+            window.setInterval(update, 10)
+            const img = new window.Image();
+            img.src = prot
+            img.onload = () => {
+                setImage(img)
+            }
         }
     })
 
@@ -33,11 +39,35 @@ export default props => {
         ]
     }
 
+    function update() {
+        // console.log(sprite)
+        if (sprite !== null) {
+            const keys = InputManager.getInput()
 
+            if (keys.left) {
+                // console.log('setL', x);
+                x -= 20;
+                // setSpriteX(spriteX - 10)
+                // if (sprite) sprite.current.start();
+            } else if (keys.right) {
+                x += 20;
+                // console.log(x + 10)
+                // console.log('setR', x);
+
+                // setSpriteX(spriteX + 10)
+                // if (sprite) sprite.current.start();
+            } else {
+                // sprite.current.stop();
+            }
+
+            if(x !== spriteX) setSpriteX(x)
+        }
+
+    }
 
     return <Sprite
         ref={sprite}
-        x={props.x}
+        x={spriteX}
         y={image ? props.y - (image.height * 5) + 30 : 0}
         scaleX={5}
         scaleY={5}
