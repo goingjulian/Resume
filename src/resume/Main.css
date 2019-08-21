@@ -1,0 +1,33 @@
+html {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+body { -ms-overflow-style: none; }
+
+div.main {
+    position: fixed;
+}
+
+aside.scrollPos {
+    position: fixed;
+    right: 0;
+    top: 80;
+}
+
+aside.scrollPos div.progressDot {
+    border: 1px black solid;
+    border-radius: 50%;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+}
+
+aside.scrollPos div.progressDot.active {
+    background-color: black;
+}
+
+footer.navButtons {
+    position: fixed;
+    bottom: 0;
+}

@@ -29,7 +29,6 @@ function handleKeys(event, value) {
         }
 
         pressedKeys = pressedKeysCopy
-        // console.log(pressedKeysCopy, pressedKeys)
     }
 }
 

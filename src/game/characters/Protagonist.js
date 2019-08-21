@@ -2,19 +2,22 @@ import React, { useState, useEffect } from 'react';
 import prot from '../assets/sprites/prot.png'
 import { Sprite } from 'react-konva';
 import Konva from 'konva';
-import InputManager from '../InputManager';
-let x = 0;
+import InputManager from '../InputManager.js';
+
+let tempX = 0;
+let sprite = null;
+
+const fps60TimerValue = 17
+
 export default props => {
     const [image, setImage] = useState(null);
-    const sprite = React.createRef();
+    if (sprite === null) sprite = React.createRef();
 
     const [spriteX, setSpriteX] = useState(0);
-    useEffect(() => {
-        console.log('call')
-        // window.requestAnimationFrame(() => console.log('poo'))
 
+    useEffect(() => {
         if (image === null) {
-            window.setInterval(update, 10)
+            window.setInterval(update, fps60TimerValue)
             const img = new window.Image();
             img.src = prot
             img.onload = () => {
@@ -40,29 +43,21 @@ export default props => {
     }
 
     function update() {
-        // console.log(sprite)
-        if (sprite !== null) {
-            const keys = InputManager.getInput()
+        const keys = InputManager.getInput()
 
-            if (keys.left) {
-                // console.log('setL', x);
-                x -= 20;
-                // setSpriteX(spriteX - 10)
-                // if (sprite) sprite.current.start();
-            } else if (keys.right) {
-                x += 20;
-                // console.log(x + 10)
-                // console.log('setR', x);
-
-                // setSpriteX(spriteX + 10)
-                // if (sprite) sprite.current.start();
-            } else {
-                // sprite.current.stop();
-            }
-
-            if(x !== spriteX) setSpriteX(x)
+        if (keys.left) {
+            tempX -= 20
+            sprite.current.start()
         }
+        else if (keys.right) {
+            tempX += 20
+            sprite.current.start()
+        }
+        else sprite.current.stop()
 
+        if (tempX !== spriteX) {
+            setSpriteX(tempX)
+        }
     }
 
     return <Sprite
