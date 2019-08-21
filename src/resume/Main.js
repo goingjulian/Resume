@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Slide from './Slide';
 import slides from "./slides.json";
 import "./Main.css";
+import NavButtons from './NavButtons';
 
 const artificialHeightIncrease = 2000;
 const slidesArrLength = Object.keys(slides).length;
@@ -28,8 +29,6 @@ export default props => {
     }
 
     function scrollToSlide(slideIndex) {
-        console.log(slideIndex)
-
         if (slideIndex >= 0 && slideIndex < slidesArrLength) {
             const maxScrollTopValue = document.body.clientHeight - window.innerHeight;
             const slidePXHeight = maxScrollTopValue / slidesArrLength;
@@ -38,7 +37,6 @@ export default props => {
             document.body.scrollTop = slidePXHeight * (slideIndex) + slidePXHeight / 2;
         }
     }
-    console.log("cur", currentSlide)
     return <section style={{ height: `${window.innerHeight + artificialHeightIncrease}px` }}>
         <div className="main">
             <Slide {...slides[currentSlide]} />
@@ -46,9 +44,6 @@ export default props => {
         <aside className="scrollPos">
             {slides.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} />)}
         </aside>
-        <footer className="navButtons">
-            {currentSlide > 0 ? <button onClick={() => scrollToSlide(currentSlide - 1)}>Previous</button> : null}
-            {currentSlide < slidesArrLength - 1 ? <button onClick={() => scrollToSlide(currentSlide + 1)}>Next</button> : null}
-        </footer>
+        <NavButtons currentSlide={currentSlide} slidesArrLength={slidesArrLength} scrollToSlide={scrollToSlide}/>
     </section>
 }
