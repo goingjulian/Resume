@@ -3,7 +3,7 @@ import Slide from './Slide';
 import slides from "./slides.json";
 import "./Main.css";
 
-const virtualScrollHeightModifier = 2000;
+const artificialHeightIncrease = 2000;
 const slidesArrLength = Object.keys(slides).length;
 
 export default props => {
@@ -39,7 +39,7 @@ export default props => {
         }
     }
     console.log("cur", currentSlide)
-    return <section style={{ height: `${window.innerHeight + virtualScrollHeightModifier}px` }}>
+    return <section style={{ height: `${window.innerHeight + artificialHeightIncrease}px` }}>
         <div className="main">
             <Slide {...slides[currentSlide]} />
         </div>
