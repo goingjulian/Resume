@@ -1,8 +1,8 @@
 [
     {
         "title": "Julian Korf de Gidts, aangenaam",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie in de richting van web development",
+        "img": "julian.png",
         "list": [
             "option one",
             "option two",
@@ -12,7 +12,7 @@
     {
         "title": "Dit is slide 2",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
@@ -22,7 +22,7 @@
     {
         "title": "Dit is slide 3",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
@@ -32,7 +32,7 @@
     {
         "title": "Dit is slide 4",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
@@ -42,7 +42,7 @@
     {
         "title": "Dit is slide 5",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
@@ -52,7 +52,7 @@
     {
         "title": "Dit is slide 6",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
@@ -62,7 +62,7 @@
     {
         "title": "Dit is slide 7",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "media": "",
+        "img": "",
         "list": [
             "option one",
             "option two",
