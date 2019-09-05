@@ -1,17 +1,78 @@
 [
     {
+        "title": "Mijn projecten",
+        "listTable": [
+            {
+                "topic": "My Resume",
+                "title": "HBO-ICT",
+                "companyName": "Hogeschool van Arnhem en Nijmegen",
+                "yearStart": "2017",
+                "yearEnd": "2021",
+                "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
+            },
+            {
+                "topic": "Studiesuccess voorspellen met AI",
+                "title": "Integrale Veiligheidskunde",
+                "companyName": "Saxion Hogeschool",
+                "yearStart": "2016",
+                "yearEnd": "2017",
+                "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
+            },
+            {
+                "topic": "PostIT",
+                "title": "Integrale Veiligheidskunde",
+                "companyName": "Saxion Hogeschool",
+                "yearStart": "2016",
+                "yearEnd": "2017",
+                "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
+            },
+            {
+                "topic": "Project Unicus",
+                "title": "Hoger Algemeen Voortgezet Onderwijs",
+                "companyName": "Lorentz Lyceum",
+                "yearStart": "2010",
+                "yearEnd": "2016",
+                "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
+            }
+        ]
+    },
+    {
+        "title": "Hobby's en nevenactiviteiten",
+        "listTable": [
+            {
+                "topic": "Activiteiten m.b.t. studie",
+                "title": "Hoger Algemeen Voortgezet Onderwijs",
+                "companyName": "Lorentz Lyceum",
+                "yearStart": "2010",
+                "yearEnd": "2016",
+                "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
+            },
+            {
+                "topic": "Airsoft",
+                "title": "HBO-ICT",
+                "companyName": "Hogeschool van Arnhem en Nijmegen",
+                "yearStart": "2017",
+                "yearEnd": "2021",
+                "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
+            },
+            {
+                "topic": "DJ Himes",
+                "title": "Integrale Veiligheidskunde",
+                "companyName": "Saxion Hogeschool",
+                "yearStart": "2016",
+                "yearEnd": "2017",
+                "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
+            }
+        ]
+    },
+    {
         "title": "Julian Korf de Gidts, aangenaam",
-        "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie in de richting van web development",
-        "img": "julian.png",
-        "list": [
-            "option one",
-            "option two",
-            "option three"
-        ]
+        "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
+        "img": "julian.png"
     },
     {
-        "title": "Dit is slide 2",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
+        "title": "Wie ben ik?",
+        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen. Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT opleiding te gaan volgen. Ik ben altijd op zoek naar nieuwe uitdagingen en ervaringen... blablabla",
         "img": "",
         "list": [
             "option one",
@@ -20,47 +81,67 @@
         ]
     },
     {
-        "title": "Dit is slide 3",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "img": "",
-        "list": [
-            "option one",
-            "option two",
-            "option three"
+        "title": "Mijn ervaring",
+        "listTable": [
+            {
+                "topic": "Studentassistent",
+                "title": "Studentassistent",
+                "companyName": "Hogeschool van Arnhem en Nijmegen",
+                "yearStart": "september 2019",
+                "yearEnd": "heden",
+                "subText": "Als studentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
+            },
+            {
+                "topic": "Ziekenhuis Rijnstate",
+                "title": "Medewerker Patiëntenvervoer en Beddencentrale",
+                "companyName": "Ziekenhuis Rijnstate",
+                "yearStart": "juni 2016",
+                "yearEnd": "heden",
+                "subText": "Als medewerker patiëntenvervoer transporteer ik patiënten die opgenomen zijn in het ziekenhuis van en naar afdelingen en poliklinieken. Hierbij staan respect, aandacht en gastvrijheid voor de patiënt centraal. Als medewerker beddencentrale beheer ik samen met mijn collega's de beddencentrale in het ziekenhuis, maak ik ziekenhuisbedden schoon en lever ik diverse soorten materialen uit aan afdelingen"
+            },
+            {
+                "topic": "Uw Computerstudent",
+                "title": "Computerspecialist",
+                "companyName": "Uw Computerstudent",
+                "yearStart": "mei. 2017",
+                "yearEnd": "nov 2017",
+                "subText": "Als computerstudent heb ik klanten in de regio Arnhem e.o. aan huis geholpen met diverse technische problemen aan computers, telefoons, tablets en netwerkapparatuur"
+            }
         ]
     },
     {
-        "title": "Dit is slide 4",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "img": "",
-        "list": [
-            "option one",
-            "option two",
-            "option three"
+        "title": "Mijn opleiding",
+        "listTable": [
+            {
+                "topic": "HBO-ICT",
+                "title": "HBO-ICT",
+                "companyName": "Hogeschool van Arnhem en Nijmegen",
+                "yearStart": "2017",
+                "yearEnd": "2021",
+                "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
+            },
+            {
+                "topic": "IVK",
+                "title": "Integrale Veiligheidskunde",
+                "companyName": "Saxion Hogeschool",
+                "yearStart": "2016",
+                "yearEnd": "2017",
+                "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
+            },
+            {
+                "topic": "HAVO",
+                "title": "Hoger Algemeen Voortgezet Onderwijs",
+                "companyName": "Lorentz Lyceum",
+                "yearStart": "2010",
+                "yearEnd": "2016",
+                "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
+            }
         ]
     },
+    
+    
     {
-        "title": "Dit is slide 5",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "img": "",
-        "list": [
-            "option one",
-            "option two",
-            "option three"
-        ]
-    },
-    {
-        "title": "Dit is slide 6",
-        "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
-        "img": "",
-        "list": [
-            "option one",
-            "option two",
-            "option three"
-        ]
-    },
-    {
-        "title": "Dit is slide 7",
+        "title": "Contact",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
         "img": "",
         "list": [
