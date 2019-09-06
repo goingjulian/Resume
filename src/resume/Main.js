@@ -4,7 +4,7 @@ import slides from "./slides.json";
 import "./Main.css";
 import NavButtons from './NavButtons';
 
-const artificialHeightIncrease = 4000;
+const artificialHeightIncrease = 3500;
 const slidesArrLength = Object.keys(slides).length;
 
 export default props => {

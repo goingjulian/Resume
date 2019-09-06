@@ -1,43 +1,37 @@
 [
     {
         "title": "Mijn projecten",
-        "listTable": [
+        "contentType": "projectsOverview",
+        "projectsOverview": [
             {
-                "topic": "My Resume",
-                "title": "HBO-ICT",
-                "companyName": "Hogeschool van Arnhem en Nijmegen",
-                "yearStart": "2017",
-                "yearEnd": "2021",
-                "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
-            },
-            {
-                "topic": "Studiesuccess voorspellen met AI",
-                "title": "Integrale Veiligheidskunde",
-                "companyName": "Saxion Hogeschool",
-                "yearStart": "2016",
-                "yearEnd": "2017",
+                "title": "PostIT",
+                "year": "2019",
+                "tech": "React | Redux | NodeJs | Express | Mongoose",
                 "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
             },
             {
-                "topic": "PostIT",
-                "title": "Integrale Veiligheidskunde",
-                "companyName": "Saxion Hogeschool",
-                "yearStart": "2016",
-                "yearEnd": "2017",
+                "title": "CV-webapp",
+                "year": "2019",
+                "tech": "React",
+                "subText": "Ik heb in mijn vrije tijd deze webapp gebouwd zodat ik mijzelf op een originele manier kan presenteren aan (toekomstige) stageaanbieders en werkgevers"
+            },
+            {
+                "title": "Studiesuccess voorspellen met AI",
+                "year": "2019 - 2020",
+                "tech": "?",
                 "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik heb daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
             },
             {
-                "topic": "Project Unicus",
-                "title": "Hoger Algemeen Voortgezet Onderwijs",
-                "companyName": "Lorentz Lyceum",
-                "yearStart": "2010",
-                "yearEnd": "2016",
+                "title": "Project Unicus",
+                "year": "2018 - 2019",
+                "tech": "Kotlin | KMongo | Spring Boot | Angular",
                 "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
             }
         ]
     },
     {
         "title": "Hobby's en nevenactiviteiten",
+        "contentType": "listTable",
         "listTable": [
             {
                 "topic": "Activiteiten m.b.t. studie",
@@ -67,6 +61,7 @@
     },
     {
         "title": "Julian Korf de Gidts, aangenaam",
+        "contentType": "generalInfo",
         "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
         "img": "julian.png"
     },
@@ -82,6 +77,7 @@
     },
     {
         "title": "Mijn ervaring",
+        "contentType": "listTable",
         "listTable": [
             {
                 "topic": "Studentassistent",
@@ -111,6 +107,7 @@
     },
     {
         "title": "Mijn opleiding",
+        "contentType": "listTable",
         "listTable": [
             {
                 "topic": "HBO-ICT",
@@ -142,6 +139,7 @@
     
     {
         "title": "Contact",
+        "contentType": "generalInfo",
         "text": "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero",
         "img": "",
         "list": [
