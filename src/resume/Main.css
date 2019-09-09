@@ -14,11 +14,11 @@ div.main {
     font-family: 'Roboto Mono', monospace;
 }
 
-div.main h1, div.main h2, div.main h3 {
-    font-size: 400%;
+h1, h2, h3 {
+    font-size: 300%;
 }
 
-div.main p {
+p {
     font-size: 200%;
     padding: 30px;
 }
@@ -26,11 +26,10 @@ div.main p {
 aside.scrollPos {
     position: fixed;
     right: 0;
-    top: 80;
+    top: 30vh;
 }
 
 aside.scrollPos div.progressDot {
-    /* border: 1px black solid; */
     border-radius: 50%;
     background-color: grey;
     width: 20px;
@@ -38,13 +37,47 @@ aside.scrollPos div.progressDot {
     margin: 10px;
 }
 
-aside.scrollPos div.progressDot.active {
-    background-color: #5a95ed;
+aside.scrollPos div.progressDot:hover {
+    cursor: pointer;
 }
 
-footer.navButtons {
+aside.scrollPos div.progressDot.active {
+    /* background-color: #5a95ed; */
+    background-color: white;
+}
+
+footer.navMenu {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
     position: fixed;
     bottom: 0;
+}
+
+footer.navMenu, aside.scrollPos {
+    opacity: 0.7;
+}
+
+footer.navMenu p {
+    color: white;
+    font-size: 20px;
+}
+
+footer.navMenu img {
+    width: 100px;
+    height: auto;
+}
+
+footer.navMenu img:hover {
+    cursor: pointer;
+}
+
+footer.navMenu button {
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 
 .slide {
@@ -60,13 +93,6 @@ footer.navButtons {
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
-}
-
-.slide img {
-    width: 500px;
-    height: 500px;
-    border-radius: 10%;
-    /* box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.468); */
 }
 
 #wallpaper {
