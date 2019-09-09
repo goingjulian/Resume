@@ -1,0 +1,47 @@
+button.leftArrow img, button.rightArrow img {
+    width: 50px;
+    height: auto;
+}
+
+button.leftArrow, button.rightArrow {
+    background-color: transparent;
+    border: none;
+}
+
+button.leftArrow {
+    position: fixed;
+    left: 0;
+    bottom: 50%;
+}
+
+button.rightArrow {
+    position: fixed;
+    right: 2%;
+    bottom: 50%;
+}
+
+button.leftArrow:hover, button.rightArrow:hover {
+    cursor: pointer;
+}
+
+button.leftArrow img {
+    transform: rotate(-90deg);
+}
+
+button.rightArrow img {
+    transform: rotate(90deg);
+}
+
+article.project h2 {
+    font-size: 35px;
+}
+
+article.project h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px white;
+}
+
+article.project p {
+    font-size: 25px;
+}
