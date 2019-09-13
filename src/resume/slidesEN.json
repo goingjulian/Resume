@@ -1,82 +1,77 @@
 [
     {
-        "title": "Julian Korf de Gidts, aangenaam",
+        "title": "Julian Korf de Gidts, nice to meet you",
         "contentType": "generalInfo",
-        "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
+        "text": "I am an enthousiastic and inquisitive ICT student at the HAN in Nijmegen, the Netherlands. I am specialising myself in web developpment within my ICT study. I would like to introduce myself to you on this website",
         "img": "julian.png"
     },
     {
-        "title": "Wie ben ik?",
-        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT opleiding te gaan volgen. Ik ben altijd op zoek naar nieuwe uitdagingen en ervaringen... blablabla"
+        "title": "Who am i?",
+        "text": "I am Julian Korf de Gidts, 20 years old and a fulltime student. I currently live in Huissen, close to Arnhem in the Netherlands. I have had a passion for technology and everything related to it since i was young. This is mainly why i started studying ICT. I am always seeking new opportunities and challenges to keep myself busy"
     },
     {
-        "title": "Mijn ervaring",
+        "title": "My experience",
         "contentType": "listTable",
         "listTable": [
             {
-                "topic": "Docentassistent",
-                "title": "Docentassistent",
+                "topic": "Teachers' assistant",
+                "title": "Teachers' assistant",
                 "companyName": "Hogeschool van Arnhem en Nijmegen",
-                "yearStart": "september 2019",
-                "yearEnd": "heden",
-                "subText": "Als docentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
+                "yearStart": "September 2019",
+                "yearEnd": "current",
+                "subText": "Als studentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
             },
             {
-                "topic": "Ziekenhuis Rijnstate",
-                "title": "Medewerker Patiëntenvervoer en Beddencentrale",
-                "companyName": "Ziekenhuis Rijnstate Arnhem",
-                "yearStart": "juni 2016",
-                "yearEnd": "heden",
+                "topic": "Rijnstate Hospital",
+                "title": "Patient transporter",
+                "companyName": "Rijnstate Hospital Arnhem",
+                "yearStart": "June 2016",
+                "yearEnd": "current",
                 "subText": "Als medewerker patiëntenvervoer transporteer ik patiënten die opgenomen zijn in het ziekenhuis van en naar afdelingen en poliklinieken. Hierbij staan respect, aandacht en gastvrijheid voor de patiënt centraal. Als medewerker beddencentrale beheer ik samen met mijn collega's de beddencentrale in het ziekenhuis, maak ik ziekenhuisbedden schoon en lever ik diverse soorten materialen uit aan afdelingen"
             },
             {
                 "topic": "Uw Computerstudent",
-                "title": "Computerspecialist",
+                "title": "Computer Specialist",
                 "companyName": "Uw Computerstudent Amsterdam",
-                "yearStart": "mei. 2017",
-                "yearEnd": "nov 2017",
+                "yearStart": "May 2017",
+                "yearEnd": "Nov 2017",
                 "subText": "Als computerstudent heb ik klanten in de regio Arnhem e.o. aan huis geholpen met diverse technische problemen aan computers, telefoons, tablets en netwerkapparatuur"
             }
         ]
     },
     {
-        "title": "Mijn projecten",
+        "title": "My projects",
         "contentType": "projectsOverview",
         "projectsOverview": [
             {
                 "title": "ICArate",
-                "year": "2019 - 2020, 6 months",
+                "year": "2019 - 2020, 6 mnd",
                 "tech": "Machine Learning | Python | RUP",
-                "subText": "Op dit moment ben ik bezig met een project waarbij ik met vier anderen ga onderzoeken of en hoe we AI kunnen laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de ICA (Informatica en Communicatie Academie) het propedeusejaar niet halen. Hierbij wordt gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kan zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden",
-                "github": ""
+                "subText": "Op dit moment ben ik bezig met een project waarbij ik met vier anderen ga onderzoeken of en hoe we AI kunnen laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de ICA (Informatica en Communicatie Academie) het propedeusejaar niet halen. Hierbij wordt gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kan zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden"
             },
             {
                 "title": "PostIT",
-                "year": "2019, 3 months",
+                "year": "2019, 3 mnd",
                 "tech": "React | Redux | NodeJs | Express | WebSockets | Web Push",
-                "subText": "Voor een project heb ik samen met twee anderen PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eign 'space' met een eigen URL",
-                "github": "https://github.com/goingjulian/PostIT-public"
+                "subText": "Voor een project heb ik samen met twee anderen PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eign 'space' met een eigen URL"
             },
             {
                 "title": "Resume-app",
-                "year": "2019, 1 week",
+                "year": "2019",
                 "tech": "React",
-                "subText": "Ik heb in mijn vrije tijd deze webapp gebouwd zodat ik mijzelf op een originele manier kan presenteren aan stageaanbieders en werkgevers",
-                "github": "https://github.com/goingjulian/Resume"
+                "subText": "Ik heb in mijn vrije tijd deze webapp gebouwd zodat ik mijzelf op een originele manier kan presenteren aan stageaanbieders en werkgevers"
             },
             {
                 "title": "Project Unicus",
-                "year": "2018 - 2019, 3 months",
+                "year": "2018 - 2019, 3 mnd",
                 "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
-                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
-                "github": "https://github.com/goingjulian/UnicusBackend"
+                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record"
             },
             {
                 "title": "Shotz",
-                "year": "2018 - 2019, 2 weeks",
+                "year": "2018 - 2019, 2 weken",
                 "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
-                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
-                "github": "https://github.com/HANICA-DWA/feb2019-quizz-julian-wout"
+                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record"
             }
         ]
     },

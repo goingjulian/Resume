@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import Slide from './Slide';
 import slides from "./slides.json";
+import slidesEN from "./slidesEN.json";
 import "./Main.css";
 import NavButtons from './NavButtons';
 
-const artificialHeightIncrease = 4000;
+const artificialHeightIncrease = 5000;
 const slidesArrLength = Object.keys(slides).length;
 
 export default props => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [lang, setLang] = useState("NL");
 
     useEffect(() => {
         document.documentElement.scrollTop = 0;
@@ -37,6 +39,8 @@ export default props => {
             document.body.scrollTop = slidePXHeight * (slideIndex) + slidePXHeight / 2;
         }
     }
+
+    const slidesToUse = lang === "EN" ? slidesEN : slides;
     return <section style={{ height: `${window.innerHeight + artificialHeightIncrease}px` }}>
 
         <video id="wallpaper" autoPlay muted loop>
@@ -44,11 +48,12 @@ export default props => {
         </video>
 
         <div className="main">
-            <Slide {...slides[currentSlide]} className="slide" />
+            <Slide {...slidesToUse[currentSlide]} className="slide" />
         </div>
         <aside className="scrollPos">
-            {slides.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)}/>)}
+            {slidesToUse.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)}/>)}
         </aside>
+        <button className="langButton" onClick={() => setLang(lang === "EN" ? "NL" : "EN")}>{lang === "EN" ? "NL" : "EN"}</button>
         <NavButtons currentSlide={currentSlide} slidesArrLength={slidesArrLength} scrollToSlide={scrollToSlide} />
     </section>
 }

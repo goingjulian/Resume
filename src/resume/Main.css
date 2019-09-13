@@ -7,7 +7,6 @@ body { -ms-overflow-style: none; }
 
 div.main {
     position: fixed;
-    /* border-top: 20px orange solid; */
     background-color: #495466;
     color: white;
     background: rgba(0, 0, 0, 0.8);
@@ -42,7 +41,6 @@ aside.scrollPos div.progressDot:hover {
 }
 
 aside.scrollPos div.progressDot.active {
-    /* background-color: #5a95ed; */
     background-color: white;
 }
 
@@ -95,9 +93,77 @@ footer.navMenu button {
     padding-right: 150px;
 }
 
+img.slideImg {
+    width: 1000px;
+    height: auto;
+    border-radius: 10%;
+}
+
 #wallpaper {
     width: 100%;
+    height: 100%;
+    object-fit: fill;
     position: fixed;
     right: 0;
     bottom: 0;
 }
+
+button.langButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(120,120,120,0.3);
+    z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    h1, h2, h3 {
+        font-size: 200%;
+    }
+    
+    p {
+        font-size: 100%;
+        padding: 30px;
+    }
+
+    .slide .content {
+        flex-flow: column nowrap;
+        align-items: center;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    img.slideImg {
+        width: 150px;
+    }
+
+    footer.navMenu img {
+        width: 80px;
+        height: auto;
+    }
+
+    footer.navMenu p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    aside.scrollPos {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-height: 650px) and (max-width: 600px) {
+    img.slideImg {
+        width: 30%;
+        height: auto;
+    }
+
+    footer.navMenu p {
+        display: none;
+    }
+  }

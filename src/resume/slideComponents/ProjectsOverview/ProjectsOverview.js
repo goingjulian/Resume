@@ -24,6 +24,9 @@ export default props => {
             <h2>{currentProject.title} | {currentProject.year}</h2>
             <h3>{currentProject.tech}</h3>
             <p>{currentProject.subText}</p>
+            <a href={currentProject.github} target="_blank" rel="noopener noreferrer">
+                 Github
+            </a>
         </article>
         <button className="rightArrow" onClick={goToNextProject}>
             <img src="assets/arrowUp.png" alt="Next project"/>

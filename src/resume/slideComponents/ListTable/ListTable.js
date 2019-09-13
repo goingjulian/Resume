@@ -28,5 +28,3 @@ export default props => {
 
     </table>
 }
-
-//BUG:: als je scrollt tussen listtable componenten dan is het eerste element niet geselecteerd. activelist resetten
