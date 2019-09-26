@@ -46,6 +46,25 @@ article.project p {
     font-size: 25px;
 }
 
+@media only screen and (max-width: 1000px) {
+    article.project h2 {
+        font-size: 200%;
+    }
+
+    article.project h3 {
+        font-size: 80%;
+    }
+    
+    article.project p {
+        font-size: 100%;
+    }
+
+    button.leftArrow img, button.rightArrow img {
+        width: 40px;
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     article.project h2 {
         font-size: 100%;
@@ -56,7 +75,7 @@ article.project p {
     }
     
     article.project p {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     button.leftArrow img, button.rightArrow img {

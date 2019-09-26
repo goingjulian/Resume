@@ -28,38 +28,38 @@ table.combinedLists {
     width: 100vw;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
     table.combinedLists th {
-        font-size: 80%;
+        font-size: 160%;
     }
 
     table.combinedLists h2 {
-        font-size: 100%;
+        font-size: 160%;
     }
 
     table.combinedLists h3 {
-        font-size: 80%;
+        font-size: 130%;
     }
     
     table.combinedLists p {
-        font-size: 100%;
+        font-size: 150%;
     }
 }
 
-@media only screen and (max-height: 650px) {
+@media only screen and (max-width: 600px) {
     table.combinedLists th {
-        font-size: 80%;
-    }
-
-    table.combinedLists h2 {
         font-size: 90%;
     }
 
+    table.combinedLists h2 {
+        font-size: 100%;
+    }
+
     table.combinedLists h3 {
-        font-size: 70%;
+        font-size: 80%;
     }
     
     table.combinedLists p {
-        font-size: 80%;
+        font-size: 100%;
     }
 }

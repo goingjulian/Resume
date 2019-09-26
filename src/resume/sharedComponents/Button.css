@@ -1,0 +1,70 @@
+button.animatedButton {
+    background-color: rgba(120,120,120,0.3);
+    
+    animation-duration: 0.2s;
+    border: none;
+    color: white;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button.animatedButton a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button.animatedButton img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+}
+
+button.animatedButton p {
+    margin: 0;
+    padding: 10px;
+}
+
+button.animatedButton {
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+button.animatedButton a {
+    text-decoration: none;
+    color: white;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+button.animatedButton:hover {
+    background-color: rgba(0,0,0,0.3);
+    animation-name: button;
+    cursor: pointer;
+}
+
+@keyframes button {
+    0%   {background-color: rgba(120,120,120,0.3);}
+    25%  {background-color: rgba(100,100,100,0.3);}
+    50%  {background-color: rgba(60,60,60,0.3);}
+    100% {background-color: rgba(20,20,20,0.3);}
+  }
+
+  @media only screen and (max-width: 600px) {
+    button.animatedButton img {
+        width: 50px;
+        height: auto;
+    }
+
+    button.animatedButton {
+        background: none;
+        width: 100px;
+        height: 50px;
+    }
+  }

@@ -3,7 +3,6 @@ import React from 'react';
 export default props => {
     return <>
         <footer className="navMenu">
-            <p>Scroll om te navigeren</p>
             <div className="navButtons">
                 {props.currentSlide > 0 ?
                     <button onClick={() => props.scrollToSlide(props.currentSlide - 1)}>

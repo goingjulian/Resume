@@ -7,19 +7,19 @@
     },
     {
         "title": "Wie ben ik?",
-        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT opleiding te gaan volgen. Ik ben altijd op zoek naar nieuwe uitdagingen en ervaringen... blablabla"
+        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT opleiding te gaan volgen. Ik zit nu in het derde jaar van deze opleiding en ik verwacht in 2021 af te studeren"
     },
     {
         "title": "Mijn ervaring",
         "contentType": "listTable",
         "listTable": [
             {
-                "topic": "Docentassistent",
-                "title": "Docentassistent",
+                "topic": "Studentassistent",
+                "title": "Studentassistent",
                 "companyName": "Hogeschool van Arnhem en Nijmegen",
                 "yearStart": "september 2019",
                 "yearEnd": "heden",
-                "subText": "Als docentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
+                "subText": "Als studentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
             },
             {
                 "topic": "Ziekenhuis Rijnstate",
@@ -45,16 +45,16 @@
         "projectsOverview": [
             {
                 "title": "ICArate",
-                "year": "2019 - 2020, 6 months",
+                "year": "2019 - 2020, ong. 6 maanden",
                 "tech": "Machine Learning | Python | RUP",
                 "subText": "Op dit moment ben ik bezig met een project waarbij ik met vier anderen ga onderzoeken of en hoe we AI kunnen laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de ICA (Informatica en Communicatie Academie) het propedeusejaar niet halen. Hierbij wordt gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kan zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden",
                 "github": ""
             },
             {
                 "title": "PostIT",
-                "year": "2019, 3 months",
+                "year": "2019, 3 maanden",
                 "tech": "React | Redux | NodeJs | Express | WebSockets | Web Push",
-                "subText": "Voor een project heb ik samen met twee anderen PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eign 'space' met een eigen URL",
+                "subText": "Voor een project heb ik samen met twee anderen PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eigen 'space' met een eigen URL",
                 "github": "https://github.com/goingjulian/PostIT-public"
             },
             {
@@ -66,14 +66,14 @@
             },
             {
                 "title": "Project Unicus",
-                "year": "2018 - 2019, 3 months",
+                "year": "2018 - 2019, 3 maanden",
                 "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
                 "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
                 "github": "https://github.com/goingjulian/UnicusBackend"
             },
             {
                 "title": "Shotz",
-                "year": "2018 - 2019, 2 weeks",
+                "year": "2018 - 2019, 2 weken",
                 "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
                 "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
                 "github": "https://github.com/HANICA-DWA/feb2019-quizz-julian-wout"
@@ -115,9 +115,9 @@
         "contentType": "listTable",
         "listTable": [
             {
-                "topic": "Activiteiten m.b.t. studie",
+                "topic": "Activiteiten m.b.t studie",
                 "title": "Activiteiten m.b.t. studie",
-                "companyName": "Hogeschool van Arnhem en Nijmegen, Studievereniging Xtend",
+                "companyName": "Hogeschool van Arnhem en Nijmegen",
                 "yearStart": "2018",
                 "yearEnd": "heden",
                 "subText": "Ik help jaarlijks bij de HAN open dagen, ICA presents en de studiekeuzecheck van mijn opleiding. Ook heb ik in 2019 voor het eerst geholpen bij de introductieweek voor de eerstejaars"
@@ -128,7 +128,7 @@
                 "companyName": "DJ Himes",
                 "yearStart": "2013",
                 "yearEnd": "heden",
-                "subText": "Ik help een bekende van mij regelmatig bij het opbouwen, draaien/bedienen en afbouwen van licht en geluid op evenementen"
+                "subText": "Ik help graag bij het opbouwen, draaien/bedienen en afbouwen van licht en geluid op evenementen"
             },
             {
                 "topic": "Airsoft",
@@ -161,7 +161,7 @@
                 "icon": "whatsapp.png"
             },
             {
-                "name": "Bellen/SMS",
+                "name": "Bel/SMS",
                 "url": "tel:0637290349",
                 "icon": "phone.png"
             }

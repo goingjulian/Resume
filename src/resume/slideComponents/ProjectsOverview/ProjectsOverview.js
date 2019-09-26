@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./ProjectsOverview.css";
+import Button from '../../sharedComponents/Button';
 
 export default props => {
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -18,18 +19,21 @@ export default props => {
 
     return <>
         <button className="leftArrow" onClick={goToPreviousProject}>
-            <img src="assets/arrowUp.png" alt="Previous project"/>
+            <img src="assets/arrowUp.png" alt="Previous project" />
         </button>
         <article className="project">
             <h2>{currentProject.title} | {currentProject.year}</h2>
             <h3>{currentProject.tech}</h3>
             <p>{currentProject.subText}</p>
-            <a href={currentProject.github} target="_blank" rel="noopener noreferrer">
-                 Github
-            </a>
+            {currentProject.github
+                ? <Button href={currentProject.github}>
+                    <img src="assets/github.png" alt="GitHub logo"/>
+                    <p>Github</p>
+                </Button>
+                : null}
         </article>
         <button className="rightArrow" onClick={goToNextProject}>
-            <img src="assets/arrowUp.png" alt="Next project"/>
+            <img src="assets/arrowUp.png" alt="Next project" />
         </button>
     </>
 }

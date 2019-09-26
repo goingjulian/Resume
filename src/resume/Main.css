@@ -10,7 +10,7 @@ div.main {
     background-color: #495466;
     color: white;
     background: rgba(0, 0, 0, 0.8);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace !important;
 }
 
 h1, h2, h3 {
@@ -94,7 +94,7 @@ footer.navMenu button {
 }
 
 img.slideImg {
-    width: 1000px;
+    width: 400px;
     height: auto;
     border-radius: 10%;
 }
@@ -120,6 +120,66 @@ button.langButton {
     z-index: 100;
 }
 
+@media only screen and (max-width: 1400px) {
+    h1, h2, h3 {
+        font-size: 200%;
+    }
+    
+    p {
+        font-size: 180%;
+        padding: 30px;
+    }
+
+    .slide .content {
+        flex-flow: column nowrap;
+        align-items: center;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    img.slideImg {
+        width: 250px;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+    h1, h2, h3 {
+        font-size: 300%;
+    }
+    
+    p {
+        font-size: 150%;
+        padding: 30px;
+    }
+
+    .slide .content {
+        flex-flow: column nowrap;
+        align-items: center;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    img.slideImg {
+        width: 250px;
+    }
+
+    footer.navMenu img {
+        width: 80px;
+        height: auto;
+    }
+
+    footer.navMenu p {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    aside.scrollPos {
+        display: none;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     h1, h2, h3 {
         font-size: 200%;
@@ -140,20 +200,6 @@ button.langButton {
 
     img.slideImg {
         width: 150px;
-    }
-
-    footer.navMenu img {
-        width: 80px;
-        height: auto;
-    }
-
-    footer.navMenu p {
-        font-size: 13px;
-        margin: 0;
-    }
-
-    aside.scrollPos {
-        display: none;
     }
   }
 

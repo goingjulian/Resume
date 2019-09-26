@@ -1,57 +1,14 @@
-ul.socialMediaList li.socialMediaItem img {
-    width: 80px;
-    height: auto;
-}
-
 ul.socialMediaList {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-ul.socialMediaList li.socialMediaItem a {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-
-    text-decoration: none;
-    color: white;
-}
-
-ul.socialMediaList li.socialMediaItem {
-    background-color: rgba(120,120,120,0.3);
-    margin-left: 50px;
-    margin-right: 50px;
-    animation-duration: 0.2s;
-}
-
-ul.socialMediaList li.socialMediaItem:hover {
-    background-color: rgba(0,0,0,0.3);
-    animation-name: example;
-    
-}
-
 ul.socialMediaList li.socialMediaItem {
     list-style-type: none;
 }
 
-@keyframes example {
-    0%   {background-color: rgba(120,120,120,0.3);}
-    25%  {background-color: rgba(100,100,100,0.3);}
-    50%  {background-color: rgba(60,60,60,0.3);}
-    100% {background-color: rgba(20,20,20,0.3);}
-  }
-
   @media only screen and (max-width: 600px) {
-    ul.socialMediaList li.socialMediaItem img {
-        width: 50px;
-        height: auto;
-    }
-
-    ul.socialMediaList li.socialMediaItem a p {
-        display: none;
-    }
 
     ul.socialMediaList li.socialMediaItem {
         background: none;

@@ -43,8 +43,8 @@ export default props => {
     const slidesToUse = lang === "EN" ? slidesEN : slides;
     return <section style={{ height: `${window.innerHeight + artificialHeightIncrease}px` }}>
 
-        <video id="wallpaper" autoPlay muted loop>
-            <source src="assets/wallpaper.mp4" type="video/mp4" />
+        <video id="wallpaper" autoPlay muted loop preload="none">
+            <source src="assets/wallpaper.mp4" type="video/mp4"/>
         </video>
 
         <div className="main">
