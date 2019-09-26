@@ -44,15 +44,16 @@ export default props => {
     return <section style={{ height: `${window.innerHeight + artificialHeightIncrease}px` }}>
 
         <video id="wallpaper" autoPlay muted loop preload="none">
-            <source src="assets/wallpaper.mp4" type="video/mp4"/>
+            <source src="assets/wallpaper.mp4" type="video/mp4" />
         </video>
 
         <div className="main">
             <Slide {...slidesToUse[currentSlide]} className="slide" />
         </div>
         <aside className="scrollPos">
-            {slidesToUse.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)}/>)}
+            {slidesToUse.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)} />)}
         </aside>
+        <p id="constructionBanner">Deze website is nog in aanbouw</p>
         {/* <button className="langButton" onClick={() => setLang(lang === "EN" ? "NL" : "EN")}>{lang === "EN" ? "NL" : "EN"}</button> */}
         <NavButtons currentSlide={currentSlide} slidesArrLength={slidesArrLength} scrollToSlide={scrollToSlide} />
     </section>

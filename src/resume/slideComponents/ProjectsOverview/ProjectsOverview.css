@@ -83,22 +83,3 @@ article.project p {
         height: auto;
     }
 }
-
-@media only screen and (max-height: 650px) {
-    article.project h2 {
-        font-size: 90%;
-    }
-
-    article.project h3 {
-        font-size: 70%;
-    }
-    
-    article.project p {
-        font-size: 80%;
-    }
-
-    button.leftArrow img, button.rightArrow img {
-        width: 30px;
-        height: auto;
-    }
-}
