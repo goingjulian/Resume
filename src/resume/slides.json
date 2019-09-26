@@ -7,7 +7,7 @@
     },
     {
         "title": "Wie ben ik?",
-        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT opleiding te gaan volgen. Ik zit nu in het derde jaar van deze opleiding en ik verwacht in 2021 af te studeren"
+        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij"
     },
     {
         "title": "Mijn ervaring",
@@ -123,20 +123,12 @@
                 "subText": "Ik help jaarlijks bij de HAN open dagen, ICA presents en de studiekeuzecheck van mijn opleiding. Ook heb ik in 2019 voor het eerst geholpen bij de introductieweek voor de eerstejaars"
             },
             {
-                "topic": "DJ, licht en geluid",
-                "title": "DJ, licht en geluid",
-                "companyName": "DJ Himes",
-                "yearStart": "2013",
-                "yearEnd": "heden",
-                "subText": "Ik help graag bij het opbouwen, draaien/bedienen en afbouwen van licht en geluid op evenementen"
-            },
-            {
-                "topic": "Airsoft",
-                "title": "Airsoft",
+                "topic": "Sporten",
+                "title": "Sporten",
                 "companyName": "hobby",
                 "yearStart": "2017",
                 "yearEnd": "heden",
-                "subText": "Ik speel in mijn vrije tijd graag de militaire simulatiesport Airsoft"
+                "subText": "Ik fitness regelmatig en speel graag de militaire simulatiesport Airsoft"
             }
         ]
     },
@@ -156,14 +148,9 @@
                 "icon": "mail.png"
             },
             {
-                "name": "WhatsApp",
-                "url": "https://api.whatsapp.com/send?phone=31637290349",
-                "icon": "whatsapp.png"
-            },
-            {
-                "name": "Bel/SMS",
-                "url": "tel:0637290349",
-                "icon": "phone.png"
+                "name": "GitHub",
+                "url": "https://github.com/goingjulian",
+                "icon": "github.png"
             }
         ]
     }

@@ -53,7 +53,7 @@ export default props => {
         <aside className="scrollPos">
             {slidesToUse.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)}/>)}
         </aside>
-        <button className="langButton" onClick={() => setLang(lang === "EN" ? "NL" : "EN")}>{lang === "EN" ? "NL" : "EN"}</button>
+        {/* <button className="langButton" onClick={() => setLang(lang === "EN" ? "NL" : "EN")}>{lang === "EN" ? "NL" : "EN"}</button> */}
         <NavButtons currentSlide={currentSlide} slidesArrLength={slidesArrLength} scrollToSlide={scrollToSlide} />
     </section>
 }
