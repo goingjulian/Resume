@@ -46,7 +46,7 @@
             {
                 "title": "ICArate",
                 "year": "2019 - 2020, ong. 6 maanden",
-                "tech": "Machine Learning | Python | RUP",
+                "tech": "Machine Learning",
                 "subText": "Op dit moment ben ik bezig met een project waarbij ik met vier anderen ga onderzoeken of en hoe we AI kunnen laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de ICA (Informatica en Communicatie Academie) het propedeusejaar niet halen. Hierbij wordt gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kan zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden",
                 "github": ""
             },
@@ -69,14 +69,14 @@
                 "year": "2018 - 2019, 3 maanden",
                 "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
                 "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
-                "github": "https://github.com/goingjulian/UnicusBackend"
+                "github": "https://github.com/goingjulian/Unicus"
             },
             {
                 "title": "Shotz",
-                "year": "2018 - 2019, 2 weken",
-                "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
-                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
-                "github": "https://github.com/HANICA-DWA/feb2019-quizz-julian-wout"
+                "year": "2019, 2 weken",
+                "tech": "React | Redux | NodeJs | Express | WebSockets",
+                "subText": "Voor een schoolopdracht heb ik samen met een medestudent Shotz ontwikkeld. Shotz is een online en interactief quizplatform, vergelijkbaar met Kahoot. Dit product is uiteindelijk ingezet tijdens de introductieweek van de academie.",
+                "github": "https://github.com/goingjulian/Shotz"
             }
         ]
     },
