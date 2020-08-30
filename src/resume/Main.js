@@ -10,7 +10,7 @@ const slidesArrLength = Object.keys(slides).length;
 
 export default props => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const [lang, setLang] = useState("NL");
+    const [lang] = useState("NL");
 
     useEffect(() => {
         document.documentElement.scrollTop = 0;
@@ -53,7 +53,7 @@ export default props => {
         <aside className="scrollPos">
             {slidesToUse.map((slide, index) => <div key={index} className={`progressDot ${currentSlide === index ? "active" : ""}`} onClick={() => scrollToSlide(index)} />)}
         </aside>
-        <p id="constructionBanner">Deze website is nog in aanbouw</p>
+        {/* <p id="constructionBanner">Deze website is nog in aanbouw</p> */}
         {/* <button className="langButton" onClick={() => setLang(lang === "EN" ? "NL" : "EN")}>{lang === "EN" ? "NL" : "EN"}</button> */}
         <NavButtons currentSlide={currentSlide} slidesArrLength={slidesArrLength} scrollToSlide={scrollToSlide} />
     </section>
