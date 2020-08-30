@@ -8,8 +8,7 @@ ul.socialMediaList li.socialMediaItem {
     list-style-type: none;
 }
 
-  @media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 600px) {
     ul.socialMediaList li.socialMediaItem {
         background: none;
         margin: 30px;
@@ -18,4 +17,4 @@ ul.socialMediaList li.socialMediaItem {
     ul.socialMediaList {
         padding-left: 0;
     }
-  }
+}

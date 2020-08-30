@@ -7,22 +7,22 @@
   },
   {
     "title": "Wie ben ik?",
-    "text": "Ik ben Julian Korf de Gidts, 21 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij. Ik wordt erg blij van kwalitatief goede code, en al helemaal als ik die code heb geschreven. Daar streef ik dan ook naar"
+    "text": "Ik ben Julian Korf de Gidts, 21 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij. Ik word erg blij van kwalitatief goede code, en al helemaal als ik die code zelf heb geschreven. Daar streef ik dan ook naar"
   },
   {
     "title": "Mijn ervaring",
     "contentType": "listTable",
     "listTable": [
       {
-        "topic": "Stagair",
+        "topic": "Coffee IT",
         "title": "Stagair Software Development",
         "companyName": "Coffee IT",
         "yearStart": "februari 2020",
         "yearEnd": "juni 2020",
-        "subText": "Ik heb bij Coffee IT in Utrecht een half jaar met veel plezier stage gelopen. Coffee IT ontwikkelt voornamelijk mobiele applicaties voor een breed scala aan klanten. Ik voerde mijn stage uit binnen het Hybrid team. Dit team bouwt mobiele applicaties in React Native, webapplicaties en API's. Tijdens deze stage heb ik onder andere aan de Knaek-app gewerkt, een applicatie die studentenkortingen aanbied in Nederland en België. Deze applicatie heeft duizenden dagelijkse gebruikers en tienduizenden downloads in de Apple App Store en Google Play Store. Ik heb deze applicatie opnieuw opgebouwd in React Native in combinatie met TypeScript. Op het moment van schrijven staat deze versie van de applicatie live in beide app stores"
+        "subText": "Ik heb bij Coffee IT in Utrecht een half jaar met veel plezier stage gelopen. Coffee IT ontwikkelt (voornamelijk) mobiele applicaties voor een breed scala aan klanten. Ik voerde mijn stage uit binnen het Hybrid team. Dit team bouwt mobiele applicaties in React Native, webapplicaties en API's. Tijdens deze stage heb ik onder andere aan de Knaek-app gewerkt, een applicatie die studentenkortingen aanbied in Nederland en België. Deze applicatie heeft duizenden dagelijkse gebruikers en tienduizenden downloads in de Apple App Store en Google Play Store. Ik heb deze applicatie opnieuw opgebouwd in React Native in combinatie met TypeScript. Op het moment van schrijven staat deze versie van de applicatie live in beide app stores"
       },
       {
-        "topic": "Studentassistent",
+        "topic": "Hogeschool van Arnhem en Nijmegen",
         "title": "Studentassistent",
         "companyName": "Hogeschool van Arnhem en Nijmegen",
         "yearStart": "september 2019",
@@ -177,8 +177,8 @@
       },
       {
         "name": "CV",
-        "url": "assets/cv.pdf",
-        "icon": "cv.png"
+        "url": "assets/CV.pdf",
+        "icon": "resume.png"
       }
     ]
   }

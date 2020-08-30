@@ -1,6 +1,6 @@
 button.animatedButton {
-    background-color: rgba(120,120,120,0.3);
-    
+    background-color: rgba(120, 120, 120, 0.3);
+
     animation-duration: 0.2s;
     border: none;
     color: white;
@@ -20,7 +20,7 @@ button.animatedButton a {
 }
 
 button.animatedButton img {
-    width: 50px;
+    width: 30px;
     height: auto;
     padding: 10px;
 }
@@ -31,7 +31,7 @@ button.animatedButton p {
 }
 
 button.animatedButton {
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: "Roboto Mono", monospace !important;
 }
 
 button.animatedButton a {
@@ -39,24 +39,36 @@ button.animatedButton a {
     color: white;
 }
 
-a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
 }
 
 button.animatedButton:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     animation-name: button;
     cursor: pointer;
 }
 
 @keyframes button {
-    0%   {background-color: rgba(120,120,120,0.3);}
-    25%  {background-color: rgba(100,100,100,0.3);}
-    50%  {background-color: rgba(60,60,60,0.3);}
-    100% {background-color: rgba(20,20,20,0.3);}
-  }
+    0% {
+        background-color: rgba(120, 120, 120, 0.3);
+    }
+    25% {
+        background-color: rgba(100, 100, 100, 0.3);
+    }
+    50% {
+        background-color: rgba(60, 60, 60, 0.3);
+    }
+    100% {
+        background-color: rgba(20, 20, 20, 0.3);
+    }
+}
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     button.animatedButton img {
         width: 50px;
         height: auto;
@@ -67,4 +79,4 @@ button.animatedButton:hover {
         width: 100px;
         height: 50px;
     }
-  }
+}

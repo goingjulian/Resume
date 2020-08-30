@@ -9,7 +9,7 @@ export default props => {
             {props.socialMedia.map(item => {
                 return <li key={item.name} className="socialMediaItem">
                     <Button href={item.url}>
-                        <img src={`assets/${item.icon}`} alt="Social media icon" />
+                        <img src={`assets/${item.icon}`} alt="Social media icon" className="icon"/>
                         <p>{item.name}</p>
                     </Button>
                 </li>
@@ -17,9 +17,3 @@ export default props => {
         </ul>
     </div>
 }
-
-/*
-<a href={item.url} target="_blank" rel="noopener noreferrer">
-
-                    </a>
-                    */
