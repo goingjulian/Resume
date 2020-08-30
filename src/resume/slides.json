@@ -1,157 +1,185 @@
 [
-    {
-        "title": "Julian Korf de Gidts, aangenaam",
-        "contentType": "generalInfo",
-        "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
-        "img": "julian.png"
-    },
-    {
-        "title": "Wie ben ik?",
-        "text": "Ik ben Julian Korf de Gidts, 20 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij"
-    },
-    {
-        "title": "Mijn ervaring",
-        "contentType": "listTable",
-        "listTable": [
-            {
-                "topic": "Studentassistent",
-                "title": "Studentassistent",
-                "companyName": "Hogeschool van Arnhem en Nijmegen",
-                "yearStart": "september 2019",
-                "yearEnd": "heden",
-                "subText": "Als studentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
-            },
-            {
-                "topic": "Ziekenhuis Rijnstate",
-                "title": "Medewerker Patiëntenvervoer en Beddencentrale",
-                "companyName": "Ziekenhuis Rijnstate Arnhem",
-                "yearStart": "juni 2016",
-                "yearEnd": "heden",
-                "subText": "Als medewerker patiëntenvervoer transporteer ik patiënten die opgenomen zijn in het ziekenhuis van en naar afdelingen en poliklinieken. Hierbij staan respect, aandacht en gastvrijheid voor de patiënt centraal. Als medewerker beddencentrale beheer ik samen met mijn collega's de beddencentrale in het ziekenhuis, maak ik ziekenhuisbedden schoon en lever ik diverse soorten materialen uit aan afdelingen"
-            },
-            {
-                "topic": "Uw Computerstudent",
-                "title": "Computerspecialist",
-                "companyName": "Uw Computerstudent Amsterdam",
-                "yearStart": "mei. 2017",
-                "yearEnd": "nov 2017",
-                "subText": "Als computerstudent heb ik klanten in de regio Arnhem e.o. aan huis geholpen met diverse technische problemen aan computers, telefoons, tablets en netwerkapparatuur"
-            }
-        ]
-    },
-    {
-        "title": "Mijn projecten",
-        "contentType": "projectsOverview",
-        "projectsOverview": [
-            {
-                "title": "ICArate",
-                "year": "2019 - 2020, ong. 6 maanden",
-                "tech": "Machine Learning",
-                "subText": "Op dit moment ben ik bezig met een project waarbij ik met vier anderen ga onderzoeken of en hoe we AI kunnen laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de ICA (Informatica en Communicatie Academie) het propedeusejaar niet halen. Hierbij wordt gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kan zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden",
-                "github": ""
-            },
-            {
-                "title": "PostIT",
-                "year": "2019, 3 maanden",
-                "tech": "React | Redux | NodeJs | Express | WebSockets | Web Push",
-                "subText": "Voor een project heb ik samen met twee anderen PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eigen 'space' met een eigen URL",
-                "github": "https://github.com/goingjulian/PostIT-public"
-            },
-            {
-                "title": "Resume-app",
-                "year": "2019, 1 week",
-                "tech": "React",
-                "subText": "Ik heb in mijn vrije tijd deze webapp gebouwd zodat ik mijzelf op een originele manier kan presenteren aan stageaanbieders en werkgevers",
-                "github": "https://github.com/goingjulian/Resume"
-            },
-            {
-                "title": "Project Unicus",
-                "year": "2018 - 2019, 3 maanden",
-                "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
-                "subText": "Voor een externe opdrachtgever heb ik samen met drie anderen Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records kan samenvoegen tot 1 record",
-                "github": "https://github.com/goingjulian/Unicus"
-            },
-            {
-                "title": "Shotz",
-                "year": "2019, 2 weken",
-                "tech": "React | Redux | NodeJs | Express | WebSockets",
-                "subText": "Voor een schoolopdracht heb ik samen met een medestudent Shotz ontwikkeld. Shotz is een online en interactief quizplatform, vergelijkbaar met Kahoot. Dit product is uiteindelijk ingezet tijdens de introductieweek van de academie.",
-                "github": "https://github.com/goingjulian/Shotz"
-            }
-        ]
-    },
-    {
-        "title": "Mijn opleiding",
-        "contentType": "listTable",
-        "listTable": [
-            {
-                "topic": "HBO-ICT",
-                "title": "HBO-ICT",
-                "companyName": "Hogeschool van Arnhem en Nijmegen",
-                "yearStart": "2017",
-                "yearEnd": "2021",
-                "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
-            },
-            {
-                "topic": "IVK",
-                "title": "Integrale Veiligheidskunde",
-                "companyName": "Saxion Hogeschool",
-                "yearStart": "2016",
-                "yearEnd": "2017",
-                "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik ben daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
-            },
-            {
-                "topic": "HAVO",
-                "title": "Hoger Algemeen Voortgezet Onderwijs",
-                "companyName": "Lorentz Lyceum",
-                "yearStart": "2010",
-                "yearEnd": "2016",
-                "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
-            }
-        ]
-    },
-    {
-        "title": "Hobby's en nevenactiviteiten",
-        "contentType": "listTable",
-        "listTable": [
-            {
-                "topic": "Activiteiten m.b.t studie",
-                "title": "Activiteiten m.b.t. studie",
-                "companyName": "Hogeschool van Arnhem en Nijmegen",
-                "yearStart": "2018",
-                "yearEnd": "heden",
-                "subText": "Ik help jaarlijks bij de HAN open dagen, ICA presents en de studiekeuzecheck van mijn opleiding. Ook heb ik in 2019 voor het eerst geholpen bij de introductieweek voor de eerstejaars"
-            },
-            {
-                "topic": "Sporten",
-                "title": "Sporten",
-                "companyName": "hobby",
-                "yearStart": "2017",
-                "yearEnd": "heden",
-                "subText": "Ik fitness regelmatig en speel graag de militaire simulatiesport Airsoft"
-            }
-        ]
-    },
-    {
-        "title": "Contact",
-        "contentType": "contactPage",
-        "text": "En, heb ik uw interesse gewekt? Zo ja dan kom ik graag met u in contact. Ik ben middels onderstaande kanalen te bereiken",
-        "socialMedia": [
-            {
-                "name": "linkedIn",
-                "url": "https://www.linkedin.com/in/juliankorfdegidts/",
-                "icon": "linkedin.png"
-            },
-            {
-                "name": "E-mail",
-                "url": "mailto:julian@korfdegidts.nl",
-                "icon": "mail.png"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/goingjulian",
-                "icon": "github.png"
-            }
-        ]
-    }
+  {
+    "title": "Julian Korf de Gidts, aangenaam",
+    "contentType": "generalInfo",
+    "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
+    "img": "julian.png"
+  },
+  {
+    "title": "Wie ben ik?",
+    "text": "Ik ben Julian Korf de Gidts, 21 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij. Ik wordt erg blij van kwalitatief goede code, en al helemaal als ik die code heb geschreven. Daar streef ik dan ook naar"
+  },
+  {
+    "title": "Mijn ervaring",
+    "contentType": "listTable",
+    "listTable": [
+      {
+        "topic": "Stagair",
+        "title": "Stagair Software Development",
+        "companyName": "Coffee IT",
+        "yearStart": "februari 2020",
+        "yearEnd": "juni 2020",
+        "subText": "Ik heb bij Coffee IT in Utrecht een half jaar met veel plezier stage gelopen. Coffee IT ontwikkelt voornamelijk mobiele applicaties voor een breed scala aan klanten. Ik voerde mijn stage uit binnen het Hybrid team. Dit team bouwt mobiele applicaties in React Native, webapplicaties en API's. Tijdens deze stage heb ik onder andere aan de Knaek-app gewerkt, een applicatie die studentenkortingen aanbied in Nederland en België. Deze applicatie heeft duizenden dagelijkse gebruikers en tienduizenden downloads in de Apple App Store en Google Play Store. Ik heb deze applicatie opnieuw opgebouwd in React Native in combinatie met TypeScript. Op het moment van schrijven staat deze versie van de applicatie live in beide app stores"
+      },
+      {
+        "topic": "Studentassistent",
+        "title": "Studentassistent",
+        "companyName": "Hogeschool van Arnhem en Nijmegen",
+        "yearStart": "september 2019",
+        "yearEnd": "heden",
+        "subText": "Als studentassistent ondersteun ik de docenten van het vak DWA (Develop a Web Application) bij het nakijken van opdrachten die de studenten wekelijks inleveren. Het gaat hierbij om opdrachten waarbij studenten hun kennis over o.a. React en NodeJS aantonen"
+      },
+      {
+        "topic": "Ziekenhuis Rijnstate",
+        "title": "Medewerker Patiëntenvervoer en Beddencentrale",
+        "companyName": "Ziekenhuis Rijnstate Arnhem",
+        "yearStart": "juni 2016",
+        "yearEnd": "heden",
+        "subText": "Als medewerker patiëntenvervoer transporteer ik patiënten die opgenomen zijn in het ziekenhuis van en naar afdelingen en poliklinieken. Hierbij staan respect, aandacht en gastvrijheid voor de patiënt centraal. Als medewerker beddencentrale beheer ik samen met mijn collega's de beddencentrale in het ziekenhuis, maak ik ziekenhuisbedden schoon en lever ik diverse soorten materialen uit aan afdelingen"
+      },
+      {
+        "topic": "Uw Computerstudent",
+        "title": "Computerspecialist",
+        "companyName": "Uw Computerstudent Amsterdam",
+        "yearStart": "mei. 2017",
+        "yearEnd": "nov 2017",
+        "subText": "Als computerstudent heb ik klanten in de regio Arnhem e.o. aan huis geholpen met diverse technische problemen aan computers, telefoons, tablets en netwerkapparatuur"
+      }
+    ]
+  },
+  {
+    "title": "Mijn projecten",
+    "contentType": "projectsOverview",
+    "projectsOverview": [
+      {
+        "title": "Knaek app",
+        "year": "2020, 6 maanden",
+        "tech": "React Native, Mobile App Development, TypeScript",
+        "subText": "Ik heb tijdens mijn stage bij Coffee IT aan de Knaek app gewerkt. Deze applicatie biedt diverse kortingen bij online- en offline winkels aan studenten in Nederland en België. De app heeft duizenden dagelijkse gebruikers en tienduizenden downloads in de Apple App Store en Google Play Store. Ik heb de applicatie opnieuw geschreven in TypeScript binnen het React Native platform. Dit heb ik gedaan omdat de applicatie technisch niet goed in elkaar stak, en dit uitbreidbaarheid in de toekomst in de weg zat. Deze versie van de applicatie staat op het moment van schrijven in beide app stores. Een aangepaste variant van deze applicatie staat ook in de app stores onder de naam \"CultuurApp\"",
+        "github": ""
+      },
+      {
+        "title": "Project Unicus",
+        "year": "2018 - 2019, 3 maanden",
+        "tech": "Kotlin | KMongo | Spring Boot | Angular | MongoDB | Levenshtein-algorithm | Scrum",
+        "subText": "Tijdens mijn studie heb ik in opdracht van Avisi, samen met drie medestudenten, Unicus ontwikkeld. Unicus is een applicatie die gegevens uit een notariële database van de opdrachtgever kan doorzoeken en mogelijk dubbele records hieruit kan filteren. Hierbij wordt een eigen implementatie van het Levenshtein-algoritme gebruikt. Het presenteert deze resultaten aan de gebruiker welke vervolgens met deze applicatie de gevonden dubbele records eenvoudig kan samenvoegen tot 1 record",
+        "github": ""
+      },
+      {
+        "title": "ICArate",
+        "year": "2019 - 2020, 6 maanden",
+        "tech": "Machine Learning",
+        "subText": "Ik heb samen met vier andere medestudenten onderzocht of en hoe we AI konden laten voorspellen wat de kans is dat nieuwe HBO-ICT studenten aan de AIM (Academie IT en Mediadesign, hiervoor ICA genoemd) het propedeusejaar niet halen. Hierbij werd gekeken naar zaken als cijferlijst van de vooropleiding, achtergrond en interesse in ICT. Voor iedere student kon zo een score gevormd worden die de kans op success aangeeft. De opleiding kan met deze informatie risicostudenten aanvullende begeleiding bieden",
+        "github": ""
+      },
+      {
+        "title": "PostIT",
+        "year": "2019, 3 maanden",
+        "tech": "React | Redux | NodeJs | Express | WebSockets | Web Push",
+        "subText": "Voor een project heb ik samen met twee medestudenten PostIT ontwikkeld. PostIT is een digitale en interactieve ideeënbus waar medewerkers van bedrijven op een laagdrempelige manier hun ideeën kunnen delen met collega's. De opzet is vergelijkbaar met de zakelijke chatapplicatie Slack, iedere organisatie heeft zijn eigen 'space' met een eigen URL",
+        "github": "https://github.com/goingjulian/PostIT-public"
+      },
+      {
+        "title": "Resume-app",
+        "year": "2019, 1 week",
+        "tech": "React",
+        "subText": "Ik heb in mijn vrije tijd een webapp gebouwd waarmee ik mijzelf op een originele manier kan presenteren aan stageaanbieders en werkgevers",
+        "github": "https://github.com/goingjulian/Resume"
+      },
+      {
+        "title": "Shotz",
+        "year": "2019, 2 weken",
+        "tech": "React | Redux | NodeJs | Express | WebSockets",
+        "subText": "Voor een schoolopdracht heb ik samen met een medestudent Shotz ontwikkeld. Shotz is een online en interactief quizplatform, vergelijkbaar met Kahoot. Dit product is uiteindelijk ingezet tijdens de introductieweek van de academie.",
+        "github": "https://github.com/goingjulian/Shotz"
+      }
+    ]
+  },
+  {
+    "title": "Mijn opleiding",
+    "contentType": "listTable",
+    "listTable": [
+      {
+        "topic": "HBO-ICT",
+        "title": "HBO-ICT",
+        "companyName": "Hogeschool van Arnhem en Nijmegen",
+        "yearStart": "2017",
+        "yearEnd": "2021",
+        "subText": "Ik volg op dit moment de studie HBO-ICT aan de HAN in Nijmegen. Ik zit nu in mijn derde jaar van deze studie. Ik heb mijn propedeuse in een keer behaald en ben mij daarna vanaf het tweede jaar gaan specialiseren in Web Development. Ik verwacht in 2021 af te studeren"
+      },
+      {
+        "topic": "IVK",
+        "title": "Integrale Veiligheidskunde",
+        "companyName": "Saxion Hogeschool",
+        "yearStart": "2016",
+        "yearEnd": "2017",
+        "subText": "Ik heb een jaar lang de opleiding Integrale Veiligheidskunde gevolgd op Saxion Hogeschool te Deventer. Na driekwart jaar kwam ik tot de conclusie dat deze opleiding niet goed bij mij paste. Ik ben daaropvolgend na het behalen van mijn propedeuse gestopt met deze opleiding"
+      },
+      {
+        "topic": "HAVO",
+        "title": "Hoger Algemeen Voortgezet Onderwijs",
+        "companyName": "Lorentz Lyceum",
+        "yearStart": "2010",
+        "yearEnd": "2016",
+        "subText": "Ik heb in 5 jaar tijd mijn HAVO-diploma behaald op het Lorentz Lyceum te Arnhem"
+      }
+    ]
+  },
+  {
+    "title": "Hobby's en nevenactiviteiten",
+    "contentType": "listTable",
+    "listTable": [
+      {
+        "topic": "AIM Intro",
+        "title": "Lid kernteam AIM Intro",
+        "companyName": "Studievereniging Xtend",
+        "yearStart": "februari 2020",
+        "yearEnd": "augustus 2020",
+        "subText": "Ik heb dit jaar voor het eerst de introductieweek van mijn academie mede-georganiseerd. Ik ben begonnen met de voorbereidingen voor een fysieke introductie. Toen het coronavirus roet in het eten gooide hebben we een online introductie georganiseerd"
+      },
+      {
+        "topic": "Open dagen, studiekeuzecheck etc.",
+        "title": "Helpen bij open dagen, studiekeuzecheck etc.",
+        "companyName": "Hogeschool van Arnhem en Nijmegen",
+        "yearStart": "2018",
+        "yearEnd": "heden",
+        "subText": "Ik help jaarlijks bij de HAN open dagen, AIM presents en de studiekeuzecheck van mijn opleiding"
+      },
+      {
+        "topic": "Sporten",
+        "title": "Sporten",
+        "companyName": "hobby",
+        "yearStart": "2016",
+        "yearEnd": "heden",
+        "subText": "Ik fitness regelmatig en speel graag de militaire simulatiesport Airsoft"
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "contentType": "contactPage",
+    "text": "En, heb ik uw interesse gewekt? Zo ja dan kom ik graag met u in contact. Ik ben middels onderstaande kanalen te bereiken",
+    "socialMedia": [
+      {
+        "name": "linkedIn",
+        "url": "https://www.linkedin.com/in/juliankorfdegidts/",
+        "icon": "linkedin.png"
+      },
+      {
+        "name": "E-mail",
+        "url": "mailto:julian@korfdegidts.nl",
+        "icon": "mail.png"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/goingjulian",
+        "icon": "github.png"
+      },
+      {
+        "name": "CV",
+        "url": "assets/cv.pdf",
+        "icon": "cv.png"
+      }
+    ]
+  }
 ]
