@@ -27,7 +27,7 @@ export default props => {
             <p>{currentProject.subText}</p>
             {currentProject.github
                 ? <Button href={currentProject.github}>
-                    <img src="assets/github.png" alt="GitHub logo"/>
+                    <img src="assets/github.png" alt="GitHub logo" />
                     <p>Github</p>
                 </Button>
                 : null}

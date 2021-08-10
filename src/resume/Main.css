@@ -2,23 +2,29 @@ html {
     scrollbar-width: none;
 }
 
-body::-webkit-scrollbar { width: 0 !important }
-body { -ms-overflow-style: none; }
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+body {
+    -ms-overflow-style: none;
+}
 
 div.main {
     position: fixed;
     background-color: #495466;
     color: white;
     background: rgba(0, 0, 0, 0.8);
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: "Roboto Mono", monospace !important;
 }
 
-h1, h2, h3 {
-    font-size: 300%;
+h1,
+h2,
+h3 {
+    font-size: 250%;
 }
 
 p {
-    font-size: 200%;
+    font-size: 150%;
     padding: 30px;
 }
 
@@ -54,7 +60,8 @@ footer.navMenu {
     bottom: 0;
 }
 
-footer.navMenu, aside.scrollPos {
+footer.navMenu,
+aside.scrollPos {
     opacity: 0.7;
 }
 
@@ -116,7 +123,7 @@ button.langButton {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(120,120,120,0.3);
+    background-color: rgba(120, 120, 120, 0.3);
     z-index: 100;
 }
 
@@ -129,14 +136,16 @@ button.langButton {
     z-index: 100;
 
     color: white;
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: "Roboto Mono", monospace !important;
 }
 
 @media only screen and (max-width: 1400px) {
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-size: 300%;
     }
-    
+
     p {
         font-size: 180%;
         padding: 30px;
@@ -153,13 +162,15 @@ button.langButton {
     img.slideImg {
         width: 250px;
     }
-  }
+}
 
 @media only screen and (max-width: 1000px) {
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-size: 300%;
     }
-    
+
     p {
         font-size: 150%;
         padding: 30px;
@@ -190,13 +201,15 @@ button.langButton {
     aside.scrollPos {
         display: none;
     }
-  }
+}
 
 @media only screen and (max-width: 600px) {
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-size: 200%;
     }
-    
+
     p {
         font-size: 100%;
         padding: 30px;
@@ -213,9 +226,9 @@ button.langButton {
     img.slideImg {
         width: 150px;
     }
-  }
+}
 
-  @media only screen and (max-height: 650px) and (max-width: 600px) {
+@media only screen and (max-height: 650px) and (max-width: 600px) {
     img.slideImg {
         width: 30%;
         height: auto;
@@ -224,4 +237,4 @@ button.langButton {
     footer.navMenu p {
         display: none;
     }
-  }
+}

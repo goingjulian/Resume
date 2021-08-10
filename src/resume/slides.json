@@ -2,17 +2,25 @@
   {
     "title": "Julian Korf de Gidts, aangenaam",
     "contentType": "generalInfo",
-    "text": "Ik ben een enthousiaste en leergierige student HBO-ICT op de HAN in Nijmegen. Ik specialiseer mij binnen mijn studie HBO-ICT in de richting van web development. Op deze website stel ik mij graag aan u voor",
+    "text": "Ik ben een enthousiaste en leergierige afgestudeerde software developer. Ik heb mij tijdens mijn studie gespecialiseerd in de richting van web development. Op deze website stel ik mij graag aan u voor",
     "img": "julian.png"
   },
   {
     "title": "Wie ben ik?",
-    "text": "Ik ben Julian Korf de Gidts, 21 jaar en fulltime student. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij. Ik word erg blij van kwalitatief goede code, en al helemaal als ik die code zelf heb geschreven. Daar streef ik dan ook naar"
+    "text": "Ik ben Julian Korf de Gidts, afgestudeerd software developer. Ik ben woonachtig in Huissen (in de buurt van Arnhem). Ik heb al van jongs af aan een passie voor technologie en alles wat daar mee te maken heeft. Het was dan ook een logische keuze om een ICT-opleiding te gaan volgen. Ik volg de opleiding HBO-ICT aan de Hogeschool van Arnhem en Nijmegen. Na mijn opleiding wil ik software ontwikkelen die daadwerkelijk impact heeft op de maatschappij. Ik word erg blij van kwalitatief goede code, en al helemaal als ik die code zelf heb geschreven"
   },
   {
     "title": "Mijn ervaring",
     "contentType": "listTable",
     "listTable": [
+      {
+        "topic": "Kropman",
+        "title": "Afstudeerstagair Software Development",
+        "companyName": "Kropman Installatietechniek",
+        "yearStart": "februari 2021",
+        "yearEnd": "juni 2021",
+        "subText": "Ik heb bij Kropman Installatietechniek een half jaar mogen afstuderen op de afdeling Innovatie. Hier ontwikkelt een team van vaste medewerkers en stagiairs software voor andere bedrijfsonderdelen van Kropman. Ik heb hier een applicatie mogen ontwikkelen voor de fabriek van Kropman. De applicatie die ik heb opgeleverd centraliseert en automatiseert het verwerken van goederen in het magazijn en het beheren van certificeringen en kwaliteitsdocumentatie. Dit scheelt de medewerkers in de fabriek veel tijd. Bij het ontwikkelen van deze applicatie heb ik nauw samengewerkt met de medewerkers uit de fabriek, van management tot magazijnmedewerker. De applicatie is gevormd naar hun gewenste werkproces en zal door hen gebruikt gaan worden in hun dagelijkse werkzaamheden"
+      },
       {
         "topic": "Coffee IT",
         "title": "Stagair Software Development",
@@ -22,7 +30,7 @@
         "subText": "Ik heb bij Coffee IT in Utrecht een half jaar met veel plezier stage gelopen. Coffee IT ontwikkelt (voornamelijk) mobiele applicaties voor een breed scala aan klanten. Ik voerde mijn stage uit binnen het Hybrid team. Dit team bouwt mobiele applicaties in React Native, webapplicaties en API's. Tijdens deze stage heb ik onder andere aan de Knaek-app gewerkt, een applicatie die studentenkortingen aanbied in Nederland en België. Deze applicatie heeft duizenden dagelijkse gebruikers en tienduizenden downloads in de Apple App Store en Google Play Store. Ik heb deze applicatie opnieuw opgebouwd in React Native in combinatie met TypeScript. Op het moment van schrijven staat deze versie van de applicatie live in beide app stores"
       },
       {
-        "topic": "Hogeschool van Arnhem en Nijmegen",
+        "topic": "HAN",
         "title": "Studentassistent",
         "companyName": "Hogeschool van Arnhem en Nijmegen",
         "yearStart": "september 2019",
@@ -32,15 +40,15 @@
       {
         "topic": "Ziekenhuis Rijnstate",
         "title": "Medewerker Patiëntenvervoer en Beddencentrale",
-        "companyName": "Ziekenhuis Rijnstate Arnhem",
+        "companyName": "Ziekenhuis Rijnstate",
         "yearStart": "juni 2016",
         "yearEnd": "heden",
         "subText": "Als medewerker patiëntenvervoer transporteer ik patiënten die opgenomen zijn in het ziekenhuis van en naar afdelingen en poliklinieken. Hierbij staan respect, aandacht en gastvrijheid voor de patiënt centraal. Als medewerker beddencentrale beheer ik samen met mijn collega's de beddencentrale in het ziekenhuis, maak ik ziekenhuisbedden schoon en lever ik diverse soorten materialen uit aan afdelingen"
       },
       {
-        "topic": "Uw Computerstudent",
+        "topic": "Computerstudent",
         "title": "Computerspecialist",
-        "companyName": "Uw Computerstudent Amsterdam",
+        "companyName": "Uw Computerstudent",
         "yearStart": "mei. 2017",
         "yearEnd": "nov 2017",
         "subText": "Als computerstudent heb ik klanten in de regio Arnhem e.o. aan huis geholpen met diverse technische problemen aan computers, telefoons, tablets en netwerkapparatuur"
@@ -51,6 +59,12 @@
     "title": "Mijn projecten",
     "contentType": "projectsOverview",
     "projectsOverview": [
+      {
+        "title": "LasMan applicatie",
+        "year": "2021",
+        "tech": "Blazor | .NET 5 | C# | SQL Server",
+        "subText": "Bij Kropman Installatietechniek heb ik in het kader van mijn afstudeerproject een applicatie mogen ontwikkelen voor de fabriek van Kropman in Bijsterhuizen. Bij deze fabriek lassen lassers stalen buizenconstructies aan elkaar. Iedere keer dat ze dit doen moet er een formulier ingevuld worden. Een werkvoorbereider zoekt vervolgens de juiste documenten bij deze formulieren. Ik heb in samenwerking met deze medewerkers een applicatie ontwikkeld waarmee lasregistraties digitaal ingevuld kunnen worden. Het systeem zoekt de juiste documenten bij de formulieren en verzamelt deze op een centrale plaats. Als aanvulling op dit proces kan de applicatie ook de medewerkers van het magazijn ondersteunen bij het controleren van inkomende goederen."
+      },
       {
         "title": "Knaek app",
         "year": "2020, 6 maanden",
@@ -134,24 +148,24 @@
         "title": "Lid kernteam AIM Intro",
         "companyName": "Studievereniging Xtend",
         "yearStart": "februari 2020",
-        "yearEnd": "augustus 2020",
-        "subText": "Ik heb dit jaar voor het eerst de introductieweek van mijn academie mede-georganiseerd. Ik ben begonnen met de voorbereidingen voor een fysieke introductie. Toen het coronavirus roet in het eten gooide hebben we een online introductie georganiseerd"
+        "yearEnd": "augustus 2021",
+        "subText": "Ik heb de afgelopen jaren de introductieweek van mijn academie mede-georganiseerd"
       },
       {
-        "topic": "Open dagen, studiekeuzecheck etc.",
+        "topic": "Activiteiten m.b.t. mijn studie",
         "title": "Helpen bij open dagen, studiekeuzecheck etc.",
         "companyName": "Hogeschool van Arnhem en Nijmegen",
         "yearStart": "2018",
-        "yearEnd": "heden",
-        "subText": "Ik help jaarlijks bij de HAN open dagen, AIM presents en de studiekeuzecheck van mijn opleiding"
+        "yearEnd": "2021",
+        "subText": "Ik hielp jaarlijks bij de HAN open dagen, AIM presents en de studiekeuzecheck van mijn opleiding"
       },
       {
-        "topic": "Sporten",
-        "title": "Sporten",
-        "companyName": "hobby",
-        "yearStart": "2016",
+        "topic": "Hobby's",
+        "title": "Dronevliegen",
+        "companyName": "3D Printen",
+        "yearStart": "2019",
         "yearEnd": "heden",
-        "subText": "Ik fitness regelmatig en speel graag de militaire simulatiesport Airsoft"
+        "subText": "Op mooie dagen geniet ik graag van de zon en vlieg ik met mijn drone. Op minder mooie dagen ontwerp of zoek ik 3D-modellen die ik met mijn 3D-printer werkelijkheid laat worden"
       }
     ]
   },

@@ -1,9 +1,10 @@
-table.combinedLists h2, table.combinedLists th {
+table.combinedLists h2,
+table.combinedLists th {
     font-size: 30px;
 }
 
 table.combinedLists th.topic {
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     border-bottom: 1px dotted white;
 }
 
@@ -40,7 +41,7 @@ table.combinedLists {
     table.combinedLists h3 {
         font-size: 130%;
     }
-    
+
     table.combinedLists p {
         font-size: 150%;
     }
@@ -58,7 +59,7 @@ table.combinedLists {
     table.combinedLists h3 {
         font-size: 80%;
     }
-    
+
     table.combinedLists p {
         font-size: 100%;
     }

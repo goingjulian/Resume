@@ -1,9 +1,11 @@
-button.leftArrow img, button.rightArrow img {
+button.leftArrow img,
+button.rightArrow img {
     width: 50px;
     height: auto;
 }
 
-button.leftArrow, button.rightArrow {
+button.leftArrow,
+button.rightArrow {
     background-color: transparent;
     border: none;
 }
@@ -20,7 +22,8 @@ button.rightArrow {
     bottom: 50%;
 }
 
-button.leftArrow:hover, button.rightArrow:hover {
+button.leftArrow:hover,
+button.rightArrow:hover {
     cursor: pointer;
 }
 
@@ -54,12 +57,13 @@ article.project p {
     article.project h3 {
         font-size: 80%;
     }
-    
+
     article.project p {
         font-size: 100%;
     }
 
-    button.leftArrow img, button.rightArrow img {
+    button.leftArrow img,
+    button.rightArrow img {
         width: 40px;
         height: auto;
     }
@@ -73,12 +77,13 @@ article.project p {
     article.project h3 {
         font-size: 80%;
     }
-    
+
     article.project p {
         font-size: 80%;
     }
 
-    button.leftArrow img, button.rightArrow img {
+    button.leftArrow img,
+    button.rightArrow img {
         width: 40px;
         height: auto;
     }
